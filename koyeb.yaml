@@ -1,0 +1,7 @@
+# koyeb.yaml
+services:
+  - name: openvpn
+    dockerfile: Dockerfile
+    ports:
+      - port: 1194
+        protocol: tcp
